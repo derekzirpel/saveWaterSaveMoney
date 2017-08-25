@@ -1,0 +1,22 @@
+.rs-control .rs-range-color {
+    background-color: #f5b500;
+}
+.rs-control .rs-path-color {
+    background-color: #ffffff;
+}
+.rs-control .rs-handle {
+    background-color: #838383;
+}
+.rs-control .rs-bg-color {
+    background-color: white;
+}
+.pos-slider{
+    margin-top: 125px;
+    margin-left: 100px;
+}
+.full .rs-tooltip{
+    top: 125%;
+    left: 50%;
+    font-size: 30px;
+    color: #f5b500;
+}

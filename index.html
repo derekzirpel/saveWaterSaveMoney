@@ -1,0 +1,62 @@
+<!Doctype html>
+<html ng-app="saveWaterApp">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Cache-control" content="public,max-age=604800000">
+
+        <title>Save Water Save Money</title>
+
+        <link href="./css/styles.css" rel="stylesheet" />
+
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <link href="./js/dist/roundslider.min.css" rel="stylesheet" />
+        <script src="./js/dist/roundslider.min.js"></script>
+
+
+    </head>
+    <body ng-view ng-controller="saveWaterCtrl">
+        <div class="contenedor">
+            <header>
+                <div>
+                    <img src="img/cabecera.png" >
+                </div>
+            </header>
+            <section>
+                <div class="txt-title">
+                    <p>
+                        The SaveWaterSaveMoney Savings Engine
+                        <span class="separador"><img src="img/line.png" ></span>
+                    </p>
+                </div>
+                <div class="txt-title title-washing">
+                    <p>
+                        Kitchen - Washing Machine
+                    </p>
+                </div>
+                <div class="txt-title txt-question">
+                    <p>
+                        What is the temperature do you normally wash your clothes at?
+                    </p>
+                </div>
+                <div class="control pos-slider">
+                    <div id="slider"></div>
+                </div>
+                <script src="./js/slide.js"></script>
+                <link href="./css/slide.css" rel="stylesheet" />
+                <div class="img-washer">
+                    <img src="img/washMashine.png" width="100px;" heigth="100px;">
+                </div>
+                <div class="btn-centrado">
+                    <button type="submit" class="btn btn-back">Back</button>
+                    <button type="submit" class="btn btn-next">Next</button>
+                </div>
+            </section>
+            <footer>
+                <img src="img/footer.png" >
+            </footer>
+        </div>
+    </body>
+</html>
